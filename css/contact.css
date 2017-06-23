@@ -1,0 +1,37 @@
+h3 {
+	padding-bottom: 20px;
+}
+i {
+	width: 15px;
+}
+label{
+    display: inline-block !important;
+    width:50px;
+}
+input {
+    display: inline-block !important;
+}
+textarea {
+    display: inline-block !important;
+    height: 150px !important;
+	border:none;
+}
+input {
+	border: none;
+}
+
+
+/* mobile */
+@media (max-width: 769px) {
+	input, textarea {
+		width: 80% !important;
+	}
+}
+
+/* desktop */
+@media (min-width: 770px) {
+	input, textarea {
+		width: 50% !important;
+	}
+}
+

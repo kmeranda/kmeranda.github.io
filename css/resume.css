@@ -1,0 +1,35 @@
+#leftcol {
+    position: relative;
+	text-align: center:
+}
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+    }
+}
+figure > img {
+	height: 200px;
+	width: auto;
+}
+section {
+	padding: 0px;
+}
+.anchor {
+	margin-top: -70px;
+    padding: 80px 1.1em 1.1em;/*add approx 1.1em in px for top padding here*/
+}
+.main-list {
+	list-style: none;
+	padding: 0;
+}
+#main-link,#main-list li {
+	padding: 1px;
+	font-size: 1.1em;
+}
+#main-link:hover {
+	background-color: #eee;
+}
+#download {
+	margin-bottom: 30px;
+	font-size: 1.2em;
+}
